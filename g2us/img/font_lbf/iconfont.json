@@ -1,0 +1,65 @@
+{
+  "id": "1830741",
+  "name": "agls",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "302930",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "1074887",
+      "name": "时钟",
+      "font_class": "shizhong",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "2266907",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e6f3",
+      "unicode_decimal": 59123
+    },
+    {
+      "icon_id": "3433875",
+      "name": "信息",
+      "font_class": "xinxi",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "7549834",
+      "name": "结构",
+      "font_class": "RectangleCopy",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    },
+    {
+      "icon_id": "7594432",
+      "name": "官网",
+      "font_class": "icon-guanwang",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "8084359",
+      "name": "电 话",
+      "font_class": "dianhua1",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "11878934",
+      "name": "结构",
+      "font_class": "RectangleCopy1",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}

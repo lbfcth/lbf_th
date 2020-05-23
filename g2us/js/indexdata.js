@@ -1,0 +1,56 @@
+var nav_d={
+	n_l:[
+		{
+			tdata:"生成桌面图标",
+			imgdata:"./img/index_LOGO.png"
+		}
+	],
+	n_page:[
+		{tdata:"首页",navid:"0",na1:"#"},
+		{tdata:"关于我们",navid:"1",na1:"others/dxh.html",
+			navli:[
+				{nli2:"公司简介",na2:"#"},
+				{nli2:"公司高管",na2:"#"},
+				{nli2:"企业文化",na2:"#"},
+				{nli2:"组织架构",na2:"#"},
+				{nli2:"发展历程",na2:"#"}
+			]},
+		{tdata:"新闻资讯",navid:"1",na1:"others/far.html",
+			navli:[
+				{nli2:"企业动态",na2:"#"},
+				{nli2:"最新资讯",na2:"#"}
+			]},
+		{tdata:"投资者关系管理",navid:"1",na1:"#",
+			navli:[
+				{nli2:"公司报告",na2:"#"},
+				{nli2:"定期报告",na2:"#"},
+				{nli2:"研究报告",na2:"#"},
+				{nli2:"互动留言",na2:"#"}
+			]},
+		{tdata:"分支机构",navid:"0",na1:"others/sh.html"},
+		{tdata:"产品中心",navid:"1",na1:"others/hx.html",
+			navli:[
+				{nli2:"游戏介绍",na2:"#"},
+				{nli2:"游戏视频",na2:"#"},
+				{nli2:"游戏引擎",na2:"#"}
+			]},
+		{tdata:"招贤纳士",navid:"1",na1:"others/lyk.html",
+			navli:[
+				{nli2:"招贤纳士",na2:"#"},
+				{nli2:"团队风采",na2:"#"}
+			]}
+	],
+	n_r:[
+	{tdata:""}
+	]
+}
+Mock.mock("http://www.wy888.com/student/coach.php","get",nav_d);
+//footer
+var fo_our = {
+	f1:["关于我们","公司简介","公司高管","企业文化","组织架构","发展历程"],
+	f2:["新闻资讯","企业动态","最新资讯"],
+	f3:["产品中心","游戏介绍","游戏视频","游戏引擎"],
+	f4:["投资者关系管理","公司公告","定期报告","研究报告","互动留言"],
+	f5:["招贤纳士","招贤纳士","校园招聘","团队风采"]
+}
+Mock.mock("http://www.wy888.com/footer/coach.php","get",fo_our);
